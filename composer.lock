@@ -1,0 +1,161 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8a9d91aeffb4be0719732b4b9d5f033a",
+    "packages": [
+        {
+            "name": "predis/predis",
+            "version": "v2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/predis/predis.git",
+                "reference": "98d4f802636e99de2e70e3252ea76dfde395cd65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/predis/predis/zipball/98d4f802636e99de2e70e3252ea76dfde395cd65",
+                "reference": "98d4f802636e99de2e70e3252ea76dfde395cd65",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.3",
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^8.0 || ~9.4.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Till Krüss",
+                    "homepage": "https://till.im",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A flexible and feature-complete Redis client for PHP.",
+            "homepage": "http://github.com/predis/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "support": {
+                "issues": "https://github.com/predis/predis/issues",
+                "source": "https://github.com/predis/predis/tree/v2.x"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/tillkruss",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-03-29T14:03:45+00:00"
+        },
+        {
+            "name": "yauphp/common",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yauphp/common.git",
+                "reference": "6f9f9d5db391e9eb4ac355567a2bdc0171360800"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yauphp/common/zipball/6f9f9d5db391e9eb4ac355567a2bdc0171360800",
+                "reference": "6f9f9d5db391e9eb4ac355567a2bdc0171360800",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "yauphp/core": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yauphp\\Common\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomix Chiu",
+                    "email": "qhr2001@yahoo.com"
+                }
+            ],
+            "description": "轻量级的PHP开发框架(通用模块)",
+            "support": {
+                "issues": "https://github.com/yauphp/common/issues",
+                "source": "https://github.com/yauphp/common/tree/1.1.0"
+            },
+            "time": "2022-01-08T10:51:29+00:00"
+        },
+        {
+            "name": "yauphp/core",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yauphp/core.git",
+                "reference": "5aebbec5ffd06864037d999edb366cc4fa5c99ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yauphp/core/zipball/5aebbec5ffd06864037d999edb366cc4fa5c99ae",
+                "reference": "5aebbec5ffd06864037d999edb366cc4fa5c99ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yauphp\\Core\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomix Chiu",
+                    "email": "qhr2001@yahoo.com"
+                }
+            ],
+            "description": "轻量级的PHP开发框架(核心模块)",
+            "support": {
+                "issues": "https://github.com/yauphp/core/issues",
+                "source": "https://github.com/yauphp/core/tree/1.1.0"
+            },
+            "time": "2021-12-30T04:00:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
