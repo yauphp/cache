@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Cache\Internal;
+namespace Yauphp\Cache\Impl;
 
 use Yauphp\Cache\ICacher;
 use Yauphp\Common\IO\File;

@@ -1,5 +1,5 @@
 <?php
-namespace Yauphp\Cache\Internal;
+namespace Yauphp\Cache\Impl;
 
 use Predis\Client;
 use Yauphp\Cache\ICacher;
