@@ -11,8 +11,8 @@
 	],
 	"require" : {
 		"php" : ">=8.0.0",
-		"yauphp/core" : "~2.0",
-		"yauphp/common" : "~2.0",
+		"yauphp/core" : "~2.5",
+		"yauphp/common" : "~2.5",
 		"predis/predis":"^2.1"
 	},
 	"autoload" : {
